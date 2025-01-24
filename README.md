@@ -21,9 +21,8 @@
     * GPU is needed.
     * pull open embedding model "nomic-embed-text" from ollama.
 
-    * open a cmd and then change directory to "Modelfile" path and then create model with ollama.
-    * command to create model with ollama  "ollama create -f Modelfile model_name" 
-        for example: "ollama create -f Modelfile test_model".
+    * before use the fine-tune model with ollama, open a cmd and then change directory to "Modelfile" path and then create model with ollama.
+    * command to create model with ollama  "ollama create -f Modelfile test12_model".
 
 ### Run the pipeline to build fine-tune model and embedding:
     * python worflow.py
