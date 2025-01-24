@@ -209,26 +209,26 @@ class App:
             """
             <style>
             .upper_container {
-                border: 2px solid #676767;  /* Change this value for different border colors */
+                border: 2px solid #676767; 
                 padding: 5px;
                 border-radius: 10px;
                 margin-top: 10px;
-                height: 100px;  /* Reduced height */
-                width: 300px;  /* Reduced width *
+                height: 100px;  
+                width: 300px;  
                 display: flex;
-                align-User_infos: flex-start;  /* Align text to the top */
+                align-User_infos: flex-start;  
                 justify-content: flex-start;
                 
             }
             .custom-container {
-                border: 2px solid #FF6347;  /* Change this value for different border colors */
+                border: 2px solid #FF6347; 
                 padding: 5px;
                 border-radius: 10px;
                 margin-top: 10px;
-                height: 100px;  /* Reduced height */
-                width: 180px;  /* Reduced width *
+                height: 100px;  
+                width: 180px; 
                 display: flex;
-                align-User_infos: flex-start;  /* Align text to the top */
+                align-User_infos: flex-start;  
                 justify-content: flex-start;
             }
             .custom-font {
@@ -257,10 +257,10 @@ class App:
                 border-color: #F08080;
             }
             .circular-container {
-            width: 28px;         /* Set width */
-            height: 28px;        /* Set height (equal to width for a circle) */
-            border-radius: 50%;   /* Make the container circular */
-            border: 1px solid #FF6347;  /* Add border */  /* Center content horizontally */
+            width: 28px;         
+            height: 28px;        
+            border-radius: 50%;  
+            border: 1px solid #FF6347;  
             text-align: center;
             background-color: #FF6347;
             }

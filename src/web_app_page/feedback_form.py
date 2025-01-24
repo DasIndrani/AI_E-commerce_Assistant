@@ -21,7 +21,7 @@ if st.session_state.logged_in and st.session_state.Username:
     st.markdown(
     """
     <style>
-    /* Remove margin at the top of the page */
+    
     .main > div:first-child {
         padding-top: 60px;
     }

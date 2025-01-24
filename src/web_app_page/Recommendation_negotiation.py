@@ -158,7 +158,7 @@ class RecommendationAndNegotiation:
                 <style>
                 
                 .stDialog > div > div {
-                    background-color: #2E2E2E;  /* Change the inside color (beige) */
+                    background-color: #2E2E2E;  
                     padding: 20px;
                     border-radius: 10px;
                 }
@@ -177,7 +177,6 @@ class RecommendationAndNegotiation:
             st.markdown(
                 """
                 <style>
-                /* Remove margin at the top of the page */
                 .main > div:first-child {
                     padding-top: 5px;
                 }
@@ -283,15 +282,15 @@ st.markdown(
     """
     <style>
     .circular-container {
-        width: 28px;         /* Set width */
-        height: 28px;        /* Set height (equal to width for a circle) */
-        border-radius: 50%;   /* Make the container circular */
-        border: 1px solid #FF6347;  /* Add border */  /* Center content horizontally #708090 */
+        width: 28px;        
+        height: 28px;      
+        border-radius: 50%;   
+        border: 1px solid #FF6347;  
         text-align: center;
         background-color: #FF6347;
         position: absolute;
-        top: 50px;  /* Distance from the top of the page */
-        right: 10px;  /* Distance from the right edge of the page */
+        top: 50px;  
+        right: 10px;  
         z-index: 1000;
     }
     
