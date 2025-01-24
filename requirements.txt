@@ -1,0 +1,9 @@
+langchain
+streamlit
+langchain_community
+faiss-cpu
+scikit-learn
+tqdm
+datasets 
+accelerate
+"unsloth[cu121-torch250] @ git+https://github.com/unslothai/unsloth.git"
