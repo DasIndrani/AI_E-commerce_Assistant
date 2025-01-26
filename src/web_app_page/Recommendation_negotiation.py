@@ -56,7 +56,7 @@ class RecommendationAndNegotiation:
             self.retriever_obj= Retriever(vectorstore)
             self.tool = PreprocessingTools()
             logging.info('start generating response')
-            previous_query_response = ["\n".join([obj["content"] for obj in st.session_state.chat_history][-2:])]
+            previous_query_response = ["\n".join([obj["content"] for obj in st.session_state.chat_history][-10:])]
             if not "recommend" in user_query.lower():
                 retrieved_doc = self.retriever_obj.retriever().invoke(user_query)
                 response = self.conversation_chain.invoke({"context":retrieved_doc,"input": user_query,"chat_history": previous_query_response})

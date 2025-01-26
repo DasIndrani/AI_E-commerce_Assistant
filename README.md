@@ -18,7 +18,7 @@
     * Ollama version >= 0.5.4
 
 ## note:
-    * GPU is needed.
+    * GPU is needed to train model.
     * pull open embedding model "nomic-embed-text" from ollama.
 
     * Use the fine-tune model with ollama, open a cmd and then change directory to "Modelfile" path and then create model with ollama.
